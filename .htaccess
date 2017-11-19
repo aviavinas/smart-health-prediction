@@ -1,0 +1,23 @@
+RewriteEngine On
+
+RewriteRule ^home?$ index.php
+RewriteRule ^home/?$ index.php
+
+RewriteRule ^contact?$ contact.php
+RewriteRule ^contact/?$ contact.php
+
+RewriteRule ^login?$ login.php
+RewriteRule ^login/?$ login.php
+
+RewriteRule ^logout?$ lib/logout.php
+RewriteRule ^logout/?$ lib/logout.php
+
+RewriteRule ^health?$ view.php
+RewriteRule ^health/?$ view.php
+
+RewriteRule ^result?$ result.php
+RewriteRule ^result/?$ result.php
+
+
+RewriteRule ^view/([0-9a-zA-Z-.]+)/ view.php?aid=$1
+RewriteRule ^view/([0-9a-zA-Z-.]+) view.php?aid=$1
