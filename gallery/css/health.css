@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+input[type="checkbox"] {
+  display:none;
+}
+input[type="checkbox"] + label {
+  color: #666;
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+.display-4 {
+  text-align: center;
+}
+
+div.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+#result {
+  display: inline-block;
+  margin-top: 14px;
+  color: #FF5722;
+}
+div.tab {
+  margin-top: 4px;
+  background-color: #5D5E5D;
+  border-bottom: 1px solid #353635;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  min-width: 70px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+  background-color: #607D8B;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent {
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes saveBlink {
+  0% {background-color: #09980f;}
+  50% {background-color: #7CB342;}
+  100% {background-color: #09980f;}
+}
+.ds-bt {
+  width: 100%;
+  margin-bottom: 8px;
+  border-color: #0000;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  background-color: #fbfbfb;
+}
+.sm .active label {
+  color: #fff;
+}
+.sm label {
+  white-space: normal;
+  height: 3em;
+}
+.sb-bt {
+  text-align: center;
+}

@@ -1,0 +1,79 @@
+body, html {
+  height: 100%;
+}
+body {
+  background-color: #f5f8fa;
+  overflow-x: hidden;
+}
+.navbar-brand {
+  color: #e83e8c !important;
+}
+.ly {
+  min-height: 100px;
+  background-color: #fff;
+}
+.ly ul li {
+  border-bottom: 1px solid #fafafa;
+  padding: 10px 4px;
+  font-weight: 600;
+}
+.ly .fa {
+  padding: 4px 6px 0 0px;
+  margin-right: 6px;
+  width: 22px;
+  border-right: 1px solid #f2f2f2;
+}
+.card-body {
+  box-shadow: 0px 0px 16px 0px #607d8b61;
+}
+.lt-post, .rt-post {
+  border-left: 8px solid #f5f8fa;
+  padding-top: .5rem!important;
+}
+.brand-tit {
+  color: white;
+  margin-left: 10px;
+  display: inline-block;
+}
+.navbar-brand {
+  border-right: 2px solid #2d3238;
+}
+.fa-heart {
+  color: #e9016a;
+  font-size: 36px !important;
+  border: 1px solid #e9016a;
+  border-radius: 46px;
+  width: 48px !important;
+  height: 48px;
+  text-align: end;
+}
+footer {
+  min-height: 60px;
+  margin: 0 !important;
+  padding: 6px;
+  color: #fff;
+  background-color: #23282d;
+}
+footer div {
+  text-align: center;
+}
+footer div a {
+  color: #fff;
+}
+footer .col-12 span {
+  margin: -6px;
+}
+.art-sec {
+  overflow-y: overlay;
+  background-color: #f5f8fa;
+}
+.nav-item .fa {
+  padding: 4px;
+}
+.lgn-bt {
+  border-radius: 20px;
+  color: #fff !important;
+}
+.nav-item a {
+  font-weight: 600;
+}
